@@ -24,11 +24,9 @@
 我们即将发布我们研发的新模型-[扁鹊（PienChueh）](https://github.com/SCIR-HI/Bian-Que_Pien-Chueh)，欢迎大家届时使用体验。
 
 ## 更新日志
-**[2023/04/28] 增加了基于[中文Alpaca大模型](https://github.com/ymcui/Chinese-LLaMA-Alpaca)进行指令微调的模型发布。**
+**[2023] 待续**
 
-[2023/04/24] 增加了基于LLaMA和医学文献进行指令微调的模型发布。
-
-[2023/03/31] 发布了基于LLaMA和医学知识库进行指令微调的模型发布。
+[2023/05/11] 增加了项目思路以及自述
 
 ## A Quick Start
 
@@ -110,6 +108,7 @@ bash ./scripts/infer-literature-multi.sh
 ### 数据集构建
 
 我们采用了公开和自建的中文医学知识库，主要参考了[cMeKG](https://github.com/king-yyf/CMeKG_tools)。
+同时参考了[华驼项目](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese)
 
 医学知识库围绕疾病、药物、检查指标等构建，字段包括并发症，高危因素，组织学检查，临床症状，药物治疗，辅助治疗等。知识库示例如下:
 
