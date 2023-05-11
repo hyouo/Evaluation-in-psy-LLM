@@ -16,12 +16,10 @@
   
 本项目开源了经过中文医学指令精调/指令微调(Instruct-tuning) 的LLaMA-7B模型。我们通过医学知识图谱和GPT3.5 API构建了中文医学指令数据集，并在此基础上对LLaMA进行了指令微调，提高了LLaMA在医疗领域的问答效果。
 
-基于相同的数据，我们还训练了医疗版本的ChatGLM模型: [ChatGLM-6B-Med](https://github.com/SCIR-HI/Med-ChatGLM)
+基于相同的数据，我们还准备训练医疗版本的ChatGLM模型: [ChatGLM-6B-psy]
 
-此外，我们还尝试利用GPT3.5 API将医学文献中的【结论】作为外部信息融入多轮对话中，在此基础上对LLaMA进行了指令微调。目前。我们只开放针对"肝癌"单个疾病训练的模型参数。在未来，我们计划发布融入文献结论的医学对话数据集，并且会针对“肝胆胰”相关16种疾病训练模型。
+此外，我们还尝试利用GPT3.5 API将医学文献中的【结论】作为外部信息融入多轮对话中，在此基础上对LLaMA进行了指令微调。目前。我们只针对"心理咨询/主框架"进行模型训练。在未来，我们计划发布融入文献结论的医学对话数据集，并且会针对心理咨询相关的所有内容训练模型。
 
-
-我们即将发布我们研发的新模型-[扁鹊（PienChueh）](https://github.com/SCIR-HI/Bian-Que_Pien-Chueh)，欢迎大家届时使用体验。
 
 ## 更新日志
 **[2023] 待续**
@@ -147,8 +145,8 @@ bash ./scripts/infer-literature-multi.sh
 
 <p align="center" width="100%">
 
-<a href="https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese/" target="_blank"><img src="assets/case.png" alt="SCIR-HI-HuaTuo-literature" style="width: 100%; min-width: 300px; display: block; margin: auto;"></a>
-
+<a href="(https://github.com/hyouo/Yu-turning-llama)/" target="_blank"><img src="case.png" alt="yu" style="width: 100%; min-width: 300px; display: block; margin: auto;"></a>
+"布局借用"
 </p>
 
 
@@ -222,7 +220,8 @@ https://wandb.ai/thinksoso/llama_med/runs/a5wgcnzt/overview?workspace=user-think
 - Stanford Alpaca: https://github.com/tatsu-lab/stanford_alpaca
 - alpaca-lora by @tloen: https://github.com/tloen/alpaca-lora
 - CMeKG https://github.com/king-yyf/CMeKG_tools
-- 文心一言 https://yiyan.baidu.com/welcome 本项目的logo由文心一言自动生成
+- 华驼 https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese
+- Bing https://www.bing.com 本项目的logo与我的头像由Bing自动生成
 
   
 
@@ -240,13 +239,9 @@ https://wandb.ai/thinksoso/llama_med/runs/a5wgcnzt/overview?workspace=user-think
 
 ```
 
-@misc{wang2023huatuo,
-      title={HuaTuo: Tuning LLaMA Model with Chinese Medical Knowledge},
-      author={Haochun Wang and Chi Liu and Nuwa Xi and Zewen Qiang and Sendong Zhao and Bing Qin and Ting Liu},
-      year={2023},
-      eprint={2304.06975},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
-}
+待续
 
 ```
+## 愿景
+
+为所有有需要的人提供心理咨询服务
