@@ -6,7 +6,7 @@
 
   
 
-# 华驼(HuaTuo): 基于中文医学知识的LLaMA微调模型
+# Yu-turning-llama：建立于中文心理学知识库的llama微调模型
 
 ### HuaTuo: Tuning LLaMA Model With Chinese Medical Instructions
 
