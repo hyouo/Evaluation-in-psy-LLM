@@ -1,7 +1,7 @@
 [**中文**](./README.md) | [**English待建**](./README-EN.md)
 
 <p align="center" width="100%">
-<a href="https://github.com/hyouo/Yu-turning-llama/" target="_blank"><img src="logo.jfif" alt="yu" style="width: 60%; min-width: 300px; display: block; margin: auto;"></a>
+<a href="https://github.com/hyouo/Yu-turning-llama/" target="_blank"><img src="logo.png" alt="Yu-turning-llama" style="width: 60%; min-width: 300px; display: block; margin: auto;"></a>
 </p>
 
   
