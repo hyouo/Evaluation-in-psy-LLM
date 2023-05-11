@@ -1,4 +1,4 @@
-[**中文**](./README.md) | [**English**](./README_EN.md)
+[**中文**](./README.md) | [**English待建**]#(./README_EN.md)
 
 <p align="center" width="100%">
 <a href="https://github.com/hyouo/Yu-turning-llama/" target="_blank"><img src="_5f097cbf-e05f-4c10-bff2-f2e961522af7.jfif" alt="yu" style="width: 60%; min-width: 300px; display: block; margin: auto;"></a>
@@ -8,7 +8,8 @@
 
 # Yu-turning-llama：建立于中文心理学知识库的llama微调模型
 
-### HuaTuo: Tuning LLaMA Model With Chinese Medical Instructions
+### text project: Tuning LLaMA Model With Chinese psychology knowledge
+
 
 [![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese/blob/main/LICENSE) [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/)
 
@@ -188,9 +189,9 @@ https://wandb.ai/thinksoso/llama_med/runs/a5wgcnzt/overview?workspace=user-think
   
 
 ## 模型效果对比
-
+待调试
   
-| 测试输入 | Llama输出  | Alpaca输出 | Huatuo华驼输出|
+| 测试输入 | Llama输出  | Alpaca输出 | Huatuo华驼输出| 本项目输出|
 |:------------- |:---------------| :-------------|:-------------|
 |小张最近感觉身体不适，出现心悸、气促等症状。体检发现心脏扩大、搏动减弱。|问题：小张最近感觉身体不适，出现心悸、气促等症状。体检发现心脏扩大、搏动减弱。| 最近，小张一直感觉身体不舒服，有心烦意乱、呼吸急促等症状。体格检查显示心脏增大，肌肉无力。|**小张可能患有心肌炎，建议尽快到医院进行检查和治疗。治疗方案包括药物治疗和手术治疗。**|
 |麻风病和儿童哮喘的病因是否一致？|儿童哮喘和麻风病的病因是一致，但是儿童哮喘和麻风病的病因不一致|是的，哮喘和儿童喘息有相似的原因。| **不一致，麻风病的病因是麻风杆菌感染，而儿童哮喘的病因是喂养不良、吸烟等因素。**|
@@ -201,7 +202,8 @@ https://wandb.ai/thinksoso/llama_med/runs/a5wgcnzt/overview?workspace=user-think
 
 ## 项目参与者
 
-本项目由哈尔滨工业大学社会计算与信息检索研究中心健康智能组[王昊淳](https://github.com/s65b40) 、[杜晏睿](https://github.com/DYR1)、[刘驰](https://github.com/thinksoso)、[白睿](https://github.com/RuiBai1999)、[席奴瓦](https://github.com/rootnx)、[陈雨晗](https://github.com/Imsovegetable)、[强泽文](https://github.com/1278882181)、[陈健宇](https://github.com/JianyuChen01)、[李子健](https://github.com/FlowolfzzZ)完成，指导教师为赵森栋副教授，秦兵教授以及刘挺教授。
+本项目由[![洪瑜](https://github.com/hyouo)提供
+。。。。。
 
 ## Star History
 [![Star History Chart](https://api.star-history.com/svg?repos=SCIR-HI/Huatuo-Llama-Med-Chinese&type=Date)](https://star-history.com/#SCIR-HI/Huatuo-Llama-Med-Chinese&Date)
