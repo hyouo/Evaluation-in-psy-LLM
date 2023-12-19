@@ -126,13 +126,7 @@ bash ./scripts/infer-literature-multi.sh
 指令微调数据集质量仍有限，后续将进行不断迭代，同时医学知识库和数据集构建代码还在整理中，整理完成将会发布。
 
 
-此外，我们收集了临床的中文交互语料，清洗出了心理学相关的语料数据。在·`./data_literature/psy.json`中我们提供了其中的1k条样例。目前，训练样本的质量仍然有限，在后续我们会进一步迭代数据，会以`公开数据集`的形式对外进行发布。训练样本的示例如下：
-
-<p align="center" width="100%">
-
-<a href="(https://github.com/hyouo/Yu-turning-llama)/" target="_blank"><img src="case.png" alt="yu" style="width: 100%; min-width: 300px; display: block; margin: auto;"></a>
-"布局借用"
-</p>
+此外，我们收集了临床的中文交互语料，清洗出了心理学相关的语料数据。在·`./data_literature/psy.json`中我们提供了其中的1k条样例。目前，训练样本的质量仍然有限，在后续我们会进一步迭代数据，会以`公开数据集`的形式对外进行发布。
 
 
 
