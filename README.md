@@ -126,7 +126,7 @@ bash ./scripts/infer-literature-multi.sh
 指令微调数据集质量仍有限，后续将进行不断迭代，同时医学知识库和数据集构建代码还在整理中，整理完成将会发布。
 
 
-此外，我们收集了临床的中文交互语料，清洗出了心理学相关的语料数据。在·`./data_literature/psy.json`中我们提供了其中的1k条样例。目前，训练样本的质量仍然有限，在后续我们会进一步迭代数据，会以`公开数据集`的形式对外进行发布。
+此外，我们收集了临床的中文交互语料，清洗出了心理学相关的语料数据。在·`./data_literature/`中我们提供了其中的1k条样例。目前，训练样本的质量仍然有限，在后续我们会进一步迭代数据，会以`公开数据集`的形式对外进行发布。
 
 
 
@@ -209,7 +209,7 @@ https://wandb.ai/thinksoso/llama_med/runs/a5wgcnzt/overview?workspace=user-think
 
   
 
-```
+
 
 待续
 
@@ -222,6 +222,7 @@ https://wandb.ai/thinksoso/llama_med/runs/a5wgcnzt/overview?workspace=user-think
   journal = {GitHub repository},
   howpublished = {\url{https://github.com/hyouo/Evaluation-in-psy-LLM}},
 }
+```
 ## 愿景
 
 期望能够为所有有需要的人提供心理咨询服务
